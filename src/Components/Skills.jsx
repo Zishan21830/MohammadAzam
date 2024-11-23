@@ -21,7 +21,7 @@ const Skills = () => {
 
   return (
     // Skills section start
-    <div className="min-h-[40vh]  md:px-20 xs:px-4">
+    <div className="min-h-[10vh]  md:px-20 xs:px-4">
       <Headline heading={"Skills"}/>
 
       <div className="h-full flex justify-center items-center flex-wrap mb-3">

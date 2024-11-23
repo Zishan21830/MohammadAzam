@@ -48,7 +48,7 @@ const Projects = () => {
   
   
   return (
-    <div className="min-h-[80vh]  md:px-20 xs:px-4">
+    <div className="min-h-[40vh]  md:px-20 xs:px-4">
       <Headline heading={"Projects"} />
 
       {/* All projects section start */}

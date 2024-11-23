@@ -5,7 +5,7 @@ import myImage from '../assets/myImage.jpg'
 
 const Home = () => {
   return (
-    <div className='min-h-[40vh] min-w-fit flex gap-10  xs:flex-col lg:flex-row md:px-20 xs:px-4'>
+    <div className='min-h-[80vh] min-w-fit flex gap-10  xs:flex-col lg:flex-row md:px-20 xs:px-4'>
         {/* left container start here*/}
         <div className='md:w-2/5 xs:w-full md:h-full xs:h-[50vh] flex justify-center items-center border-2'>
         

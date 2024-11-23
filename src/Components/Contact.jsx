@@ -5,13 +5,13 @@ import Headline from './Headline';
 
 const Contact = () => {
   return (
-   <div>
+   <div >
    <Headline heading={"Contact"}/>
-     <div className='flex md:flex-row xs:flex-col-reverse border-2'>
+     <div className='flex md:flex-row xs:flex-col-reverse md:mx-16 xs:mx-0'>
     
     {/* Contact details section start */}
-    <div className='md:w-2/5 xs:w-full h-full border-2'>  
-        <h1 className='text-orange-500 font-bold text-2xl'>DON'T BE SHY !</h1>
+    <div className='md:w-2/4 xs:w-full h-full px-4 xs:border-[#434343] xs:border-t-2 md:border-none'>  
+        <h1 className='text-orange-500 font-bold text-2xl mt-4'>DON'T BE SHY !</h1>
         <p className='text-white'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or oppertunities to be part of your vision.</p>
         {/* address */}
         <div>
@@ -42,15 +42,15 @@ const Contact = () => {
     </div>
     {/* Contact details section end */}
     {/* Contact form start */}
-    <form className='md:w-3/5 xs:w-full h-full border-2'>
+    <form className='md:w-2/4 xs:w-full h-full px-4 pb-4'>
     <h1 className='text-3xl text-white font-bold mb-3'>GET IN <span className='text-orange-500'>TOUCH</span></h1>
-    <div className='flex items-center gap-3 w-3/5'>
-        <input type="text" name="username" id="username" placeholder='YOUR NAME' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-2/4 outline-none text-orange-500'/>
-        <input type="email" name="email" id="email" placeholder='YOUR EMAIL' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-2/4 outline-none text-orange-500'/>
+    <div className='flex items-center gap-3 w-full'>
+        <input type="text" name="username" id="username" placeholder='YOUR NAME' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-full outline-none text-orange-500'/>
+        <input type="email" name="email" id="email" placeholder='YOUR EMAIL' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-full outline-none text-orange-500'/>
     </div>
-    <input type="text" name="subject" id="subject" placeholder='YOUR SUBJECT' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-3/5 my-2 outline-none text-orange-500'/>
-    <textarea name="message" id="message" cols="30" rows="7" placeholder='YOUR MESSAGE' className='block bg-[#3e3e3e] rounded-3xl py-2 px-2 w-3/5 my-2 outline-none text-orange-500'></textarea>
-    <button className='flex items-center gap-3 px-4 py-2 bg-orange-500 rounded-full text-white font-bold'>SEND MESSAGE<FaRocket className='text-2xl'/></button>
+    <input type="text" name="subject" id="subject" placeholder='YOUR SUBJECT' className='bg-[#3e3e3e] rounded-3xl py-2 px-2 w-full my-2 outline-none text-orange-500'/>
+    <textarea name="message" id="message" cols="30" rows="7" placeholder='YOUR MESSAGE' className='block bg-[#3e3e3e] rounded-3xl py-2 px-2 w-full my-2 outline-none text-orange-500'></textarea>
+    <button className='flex items-center gap-3 px-4 py-2 bg-orange-500 rounded-full text-white font-bold mt-5'>SEND MESSAGE<FaRocket className='text-2xl'/></button>
     </form>
     {/* Contact form end */}
 </div>

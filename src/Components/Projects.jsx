@@ -57,7 +57,7 @@ const Projects = () => {
       {Object.values(projectsDetails).map((project, index) => (
         <div
           key={index}
-          className=" xs:min-h-[8rem] xs:w-[16rem] p-3 border-2 border-b-4 border-orange-500 rounded-lg"
+          className=" xs:min-h-[8rem] xs:w-[20rem] p-3 border-2 border-b-4 border-orange-500 rounded-lg"
         >
           {/* Project image */}
           {/* <div className="h-[15rem] border-2 rounded-lg bg-gray-200"></div> */}

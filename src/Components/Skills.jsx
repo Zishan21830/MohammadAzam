@@ -29,7 +29,7 @@ const Skills = () => {
           return (
             <div key={idx+11} className=" md:w-36 md:h-36 xs:w-24 xs:h-24 rounded-lg border-2 border-b-4 border-orange-500 flex flex-col justify-center items-center m-2">
             <img src={skills[key]} alt={key} className="md:w-24 md:h-20 xs:w-14 xs:h-12"/>
-              <p className="text-orange-500 font-mono font-semibold pt-1 xs:text-[.7rem] md:text-sm ">{key}</p>
+              <p className="text-orange-500 font-mono font-semibold pt-1 text text-center xs:text-[.7rem] md:text-sm ">{key}</p>
             </div>
           );
         })}

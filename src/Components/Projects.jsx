@@ -53,11 +53,11 @@ const Projects = () => {
 
       {/* All projects section start */}
       <section className="flex justify-center items-center gap-4 flex-wrap">
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap justify-center pb-10 gap-4">
       {Object.values(projectsDetails).map((project, index) => (
         <div
           key={index}
-          className="min-h-[10rem] w-[20rem] p-3 border-2 border-b-4 border-orange-500 rounded-lg"
+          className=" xs:min-h-[8rem] xs:w-[16rem] p-3 border-2 border-b-4 border-orange-500 rounded-lg"
         >
           {/* Project image */}
           {/* <div className="h-[15rem] border-2 rounded-lg bg-gray-200"></div> */}
